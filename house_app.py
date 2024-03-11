@@ -16,7 +16,7 @@ def predict_price(features):
 
 # Page title and image
 st.title("House Price Prediction")
-image = open("f3dd171cce.jpeg", "rb").read()
+image = open("f3dd171cce.jpg", "rb").read()
 st.image(image, caption='House', use_column_width=True)
 
 # Inputs
